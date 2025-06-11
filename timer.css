@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image:url("https://thumbs.dreamstime.com/b/vintage-alarm-clock-isolated-blue-pastel-background-ringing-twin-bell-classic-colorful-trendy-rest-hours-time-life-good-139965864.jpg");
+  background-color: #e3f2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  
+}
+
+.container {
+  background-color: #04626a;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #f3f5f7;
+  font-family: cursive;
+}
+h2{
+    font-family: fantasy;
+    color: #b1d4f0;
+
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.container {
+  background-color: #006064;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.timer {
+  font-size: 64px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #0d47a1;
+}

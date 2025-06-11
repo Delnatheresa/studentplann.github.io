@@ -1,0 +1,45 @@
+body{
+background-image: url("https://img.freepik.com/premium-photo/top-view-blue-office-desk-table-with-copy-space-flat-lay_14098-389.jpg");
+ background-color: #cdfaf8;
+ background-repeat: no-repeat;        
+  background-size: cover;          
+  background-position: center center; 
+  background-attachment: fixed;        
+  min-height: 100vh;                   
+  margin: 0;
+  padding: 0;
+}
+}
+h1{
+    color:#316c6f ;
+    font-family:Cursive;
+}
+th{
+    font-family: cursive;
+    color: #316c6f;
+
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #8bdcf9;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #56b3f2;
+  color: rgb(246, 248, 249);
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
